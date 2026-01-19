@@ -1,1 +1,3 @@
-# Frontend-practice
+Frontend mentor challanges - 
+
+1) QR-Card - HTML, CSS

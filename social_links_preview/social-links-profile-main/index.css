@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.mainContainer {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    display: flex;
+    background-color: hsl(0, 0%, 12%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 340px;
+    border-radius: 5px;
+    padding: 15px;
+  
+}
+
+.avatarImageContainer {
+    overflow: hidden;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+
+}
+
+#avatarImage {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.avatarNameAndPlaceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avatarName {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+#place {
+    color: hsl(75, 94%, 57%);
+    font-size: 10px;
+}
+
+#breif {
+    color: white;
+    font-size: 10px;
+
+}
+
+.socialLinks {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+#item {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    font-size: 12px;
+}
